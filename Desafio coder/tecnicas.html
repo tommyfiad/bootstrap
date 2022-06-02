@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,34 +12,46 @@
 </head>
 <body>
 <div id="grilla">
-    <div class="encabezado">
-    <header>
-        <div class="titulo">
+    <div class="encabezado" class="conteiner">
+    <header  class="container-fluid" class="row">
+        <div class="titulo" class="marciales" class="conteiner-fluid">
             <h1>Academia Artes Marciales</h1>
         </div>
     </header>
-    <nav>
-        <ul>
-<div class="navegador">
-            <li class="nav__item"><button class="nav__but"><a class="nav__a" href="inicio.html">Inicio</a></button></li>
-            <li class="nav__item"><button class="nav__but"><a class="nav__a" href="tecnicas.html">Tecnicas</a></button></li>
-            <li class="nav__item"><button class="nav__but"><a class="nav__a" href="registro.html">Registro</a></button></li>
-</div>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./inicio.html">Academia Artes Marciales</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./tecnicas.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <Menu></Menu>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./tecnicas.html">Tecnicas</a></li>
+                      <li><a class="dropdown-item" href="./registro.html">Registro</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+        </div>
     </nav>
     </div>
 </div>
 <main>
-    <section class="tecnicas" data-aos="flip-up" data-aos-once="false">
-        <div class="titulo__tec">
+    <section class="tecnicas" class="container-fluid" data-aos="flip-up" data-aos-once="false">
+        <div class="titulo__tec" class="container-fluid">
             <div class="artes">
         <h2>Judo</h2>
             </div>
         </div> 
-        <div class="tec__art">
+        <div class="tec__art" class="container-fluid">
         <article>
                 <strong>
-                <p>El Judo es un deporte en el que se ve involucrado todo el cuerpo y cuya intensidad y demanda cardiovascular pueden ser modulados perfectamente por el deportista.<br> 
+                <p  class="lead" class="pjudo">El Judo es un deporte en el que se ve involucrado todo el cuerpo y cuya intensidad y demanda cardiovascular pueden ser modulados perfectamente por el deportista.<br> 
                 Combina perfectamente la fuerza, la táctica de combate y la técnica, con lo que se produce un desarrollo integral de la persona.</p>
                 </strong>    
                 <div class="video__judo">
@@ -48,16 +61,16 @@
         </article>
         </div>
     </section>
-    <section class="tecnicas" data-aos="flip-up" data-aos-once="false">
+    <section class="tecnicas"  class="container-fluid" data-aos="flip-up" data-aos-once="false">
         <div class="titulo__tec1">
             <div class="artes">
         <h2>Kung Fu</h2>
             </div>
         </div> 
-        <div class="tec__art">
+        <div class="tec__art"  class="container-fluid">
         <article>
             <strong>
-                <p>El término kung-fu (o kuoshu) se utiliza para referirse al arte marcial chino tradicional en sus diferentes estilos.<br>
+                <p class="lead">El término kung-fu (o kuoshu) se utiliza para referirse al arte marcial chino tradicional en sus diferentes estilos.<br>
                      Por otra parte, tras la revolución cultural china, también se hizo popular el término wushu que adoptó el Gobierno chino para denominar a la nueva versión deportiva del kung-fu (moderno).</p>
                 </strong>    
                 <div class="video__judo">
@@ -65,18 +78,18 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZOpbyqw2XSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
         </article>
         </div>
-    </section>
-    <section class="tecnicas" data-aos="flip-up" data-aos-once="false">
-        <div class="titulo__tec2">
+    </section >
+    <section class="tecnicas"  class="container-fluid" data-aos="flip-up" data-aos-once="false">
+        <div class="titulo__tec2"  class="container-fluid">
             <div class="artes">
         <h2>Taekwondo</h2>
             </div>
         </div> 
-        <div class="tec__art">
+        <div class="tec__art"  class="container-fluid">
         <article>
             <div class="judo">
                 <strong>
-                <p>El taekwondo es un arte marcial y deporte olímpico que destaca por sus técnicas de patadas, normalmente enfocadas al ataque al tronco o la cabeza.<br>
+                <p class="lead">El taekwondo es un arte marcial y deporte olímpico que destaca por sus técnicas de patadas, normalmente enfocadas al ataque al tronco o la cabeza.<br>
                      Aunque en sus inicios se potenciaban los ataques a los pies, por barrido. O incluso al cuerpo, y cuello mediante atrapes para propiciar un derribo.</p>
                 </strong>    
                 <div class="video__judo">
@@ -86,12 +99,13 @@
         </article>
         </div>
     </section>
-    <footer class="pie">
-        <div class="dedo1"  data-aos="flip-left"
+    <br>
+    <footer class="pie" class="container-fluid">
+        <div  class="container-fluid" data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">
-            <h1><u> Horarios de clases </u></h1>
-    <table border="2">
+            <h1 class="tit__duda"><u> Horarios de clases </u></h1>
+    <table border="2" class="table table-dark table-hover">
         <tr>
        <th>clases</th>
        <th>Lunes</th>
@@ -126,12 +140,12 @@
    </tr>
     </table> 
         </div>
-        <div class="dedo2" data-aos="flip-left"
+        <div class="container-fluid" class="dedo2" data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">
-<h2>Tiene alguna duda con respecto a la acedemia?</h2>
+<h2 class="tit__preg">Tiene alguna duda con respecto a la acedemia?</h2>
 <form action="" method="get">
-    <input type="text" class="dedo-entrada" placeholder="Ingrese su duda o comentario...">
+    <input type="text" class="dedo-entrada" class="container-fluid" placeholder="Ingrese su duda o comentario...">
 </form>
 </div>
     </footer>
@@ -139,5 +153,6 @@
 <script>
     AOS.init();
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
