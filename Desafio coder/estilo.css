@@ -35,7 +35,7 @@ nav{
     border: solid 5px #283747 ;
     padding: 5px;
     height: 10vh;
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: center;
 }
@@ -86,9 +86,16 @@ nav{
 .inicio__sec{
 
 border: solid black 5px;
-margin-top: 5%;
-height: 50vh;
+height: 51vh;
+margin: 3%;
 
+}
+
+.marciales{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-decoration: underline;
 }
 
 .titulo__sec{
@@ -104,7 +111,7 @@ height: 50vh;
 
 .inicio__art{
     padding: 2%;
-     height: 29.5vh;
+     height: 40vh;
      display: flex;
      align-items: center;
     background: rgb(40,116,166);
@@ -130,8 +137,8 @@ background: linear-gradient(0deg, rgba(40,116,166,1) 0%, rgba(236,240,241,1) 100
 .inicio__sec2{
 
     border: solid black 5px;
-    margin-top: 5%;
-    height: 50vh;
+    height: 51vh;
+    margin: 3%;
     
     }
     
@@ -148,15 +155,18 @@ background: linear-gradient(0deg, rgba(40,116,166,1) 0%, rgba(236,240,241,1) 100
 
     .inicio__art2{
         padding: 2%;
-         height: 29.5vh;
+         height: 40vh;
         display: flex;
         background: rgb(40,116,166);
     background: linear-gradient(0deg, rgba(40,116,166,1) 0%, rgba(236,240,241,1) 100%);}
 
     .imgp2{
-        transform: translate(110%,-70%);
+        transform: translate(95%, -65%);
     }
 
+.tit__duda{
+    color: #ecf0f1;
+}
 
         .item__sec{
             font-size: 25px;
@@ -177,7 +187,7 @@ background: linear-gradient(0deg, rgba(40,116,166,1) 0%, rgba(236,240,241,1) 100
         transform: skew(-10deg);
         display:flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
 
     }
 
@@ -191,8 +201,8 @@ background: linear-gradient(0deg, rgba(40,116,166,1) 0%, rgba(236,240,241,1) 100
     }
 
     .tec__art{
-        height: 83.4%;
-        width: 100.3%;
+        height: 60vh;
+        width: 100%;
         margin: 0%;
         display: flex;
         justify-content: center;
@@ -202,12 +212,13 @@ background: linear-gradient(0deg, rgba(40,116,166,1) 0%, rgba(236,240,241,1) 100
    background: linear-gradient(0deg, rgba(40,116,166,1) 0%, rgba(236,240,241,1) 100%);
     }
 
+
+    
     .tecnicas{
-        padding: 5px;
         margin: 5%;
         border: solid 5px #283747 ;
         width: 90%;
-        height: 70vh;
+        height: 71vh;
     }
 
     .titulo__tec{
@@ -247,6 +258,10 @@ background: linear-gradient(0deg, rgba(40,116,166,1) 0%, rgba(236,240,241,1) 100
         justify-content: center;
     }
 
+    .video__judo{
+        display: flex;
+        justify-content: space-evenly;
+    }
     .formulario{
         background-image: linear-gradient(to top,#cb4335,#b03a2e,#943126);
         padding: 5px;
@@ -305,12 +320,16 @@ background: linear-gradient(0deg, rgba(40,116,166,1) 0%, rgba(236,240,241,1) 100
 
     .pie{
         width: 100%;
-        height: 30vh;
+        height: 40vh;
         border: solid 5px black ;
         background-image: linear-gradient(to top,#2980b9, #2471a3, #2874a6, #21618c, #1b4f72, #34495e);
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
+    }
+    
+    .tit__preg{
+        color: #ECF0F1;
     }
     .dedo1{
         background-image: linear-gradient(to top,#cb4335,#b03a2e,#943126);
@@ -330,6 +349,7 @@ background: linear-gradient(0deg, rgba(40,116,166,1) 0%, rgba(236,240,241,1) 100
         padding: 5px;
         height: 80%;
         width: 40%;
+        margin-right: 5%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -339,7 +359,7 @@ background: linear-gradient(0deg, rgba(40,116,166,1) 0%, rgba(236,240,241,1) 100
     }
      
 .dedo-entrada{
-    width: 300px;
+    width: 90%;
     height: 7vh;
     color: black;
     
